@@ -7,3 +7,5 @@ plot(x, y)
 
 z <- rpois(100, 5)
 table(z)
+
+w <- 1:100
