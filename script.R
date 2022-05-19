@@ -2,8 +2,8 @@ set.seed(123)
 x <- runif(100)
 plot(x)
 
-y <- runif(100)
-plot(x, y)
+y <- runif(500)
+summary(y)
 
 z <- rpois(100, 5)
 table(z)
