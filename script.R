@@ -1,6 +1,6 @@
 set.seed(123)
-x <- rnorm(100)
-hist(x)
+x <- runif(100)
+plot(x)
 
 y <- runif(100)
 plot(x, y)
